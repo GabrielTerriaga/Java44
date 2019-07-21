@@ -28,7 +28,7 @@ public class Program {
 		em.persist(p1);
 		em.persist(p2);
 		em.persist(p3);
-		em.getTransaction().commit(); //confirmar as auteracoes
+		em.getTransaction().commit(); //confirmar as alteracoes
 		
 		System.out.println("Pronto");
 		System.out.println("Buscando...");
